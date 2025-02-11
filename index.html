@@ -91,7 +91,7 @@
             let currentY = rect.top;
 
             // Define max move range (so it doesn't go too far)
-            let moveRange = 1000; // Moves within a max of 100px in any direction
+            let moveRange = 200; // Moves within a max of 100px in any direction
 
             // Generate new position within the allowed range
             let newX = Math.max(10, Math.min(window.innerWidth - rect.width - 10, currentX + (Math.random() * moveRange - moveRange / 2)));
